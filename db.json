@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@test.com",
+      "name": "test",
+      "profilePicture": "https://pic.com",
+      "subscriptionType": 0
+    }
+  ],
+  "category": [
+    {
+      "tasks": [
+        "a",
+        "b",
+        "c"
+      ],
+      "createdAt": "3/3/2019",
+      "id": 1,
+      "householdId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "description": "test",
+      "categoryId": 1,
+      "assigneeId": [
+        "id1",
+        "id2",
+        "id3"
+      ],
+      "dueDate": "2/2/2019",
+      "id": 1,
+      "isComplete": false
+    }
+  ],
+  "notes": [
+    {
+      "text": "text",
+      "memberId": 1,
+      "date": "3/3/12",
+      "id": 1
+    }
+  ],
+  "households": [
+    {
+      "id": 1,
+      "name": "household1",
+      "creatorId": "userId1",
+      "memberIds": [
+        "userId4, userId5, userId6"
+      ],
+      "categories": {
+        "kitchen": {
+          "tasks": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        "bedroom": {
+          "tasks": [
+            "a"
+          ]
+        }
+      }
+    }
+  ]
+}
